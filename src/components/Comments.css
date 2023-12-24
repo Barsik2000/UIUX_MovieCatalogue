@@ -1,0 +1,130 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: #FBF4E1;
+    width:100%;
+
+}
+  
+  .comment-container {
+    margin-bottom: 10px;
+    width: 98%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    word-break: break-all;
+  }
+  
+  .comment-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+  }
+  
+  .comment-text {
+    margin-bottom: 10px;
+    margin: 12px 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+  
+  .input-box {
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 75px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .input-box-name{
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 25px;
+    width: 265px;
+    background-color: #ffffff;
+  }
+
+  .comment-button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  
+  .comment-button:hover {
+    background-color: #0056b3
+  }
+
+  .delete-button {
+    background-color: #fbf4e1;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 2px solid #f9efd2;
+    border-radius: 3px;
+  }
+
+/*
+.main-container{
+    float:right;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    margin-top:-200px;
+    background-color: #FBF4E1;
+    //width:40vh;
+    float:right;
+    position: absolute;
+    right: 0;
+}
+
+.comment-flexbox{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.comment-text{
+    margin: 12px 0;
+    font-size:1.15rem;
+    font-weight:600;
+}
+
+.input-box{
+    height:75px;
+    width:465px;
+    backround-color: #ffffff;
+}
+
+.comment-button{
+    height:40px;
+    width:80px;
+    background-color: #1b0fff;
+    color: white;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    border-radius:5px;
+    border-style:none;
+    cursor:pointer;
+}
+
+.comment-container{
+    height:75px;
+    width:465px;
+    background-color: #ffffff;
+    border-radius:5px;
+    margin:10px;
+    word-break:break-all;
+}
+*/
